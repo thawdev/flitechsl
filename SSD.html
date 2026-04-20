@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FliTech Store</title>
+<link rel="stylesheet" href="css/SSD.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="header-left">
+<div class="header-store-notice">The Best Laptop Store to access everything</div>
+</div>
+
+<div class="top-header">
+
+<div class="logo">FliTech</div>
+
+<div class="search-box">
+<input type="text" placeholder="Search products">
+<button>Search</button>
+</div>
+
+<div class="icons">
+
+<div class="icon-box">
+<div class="icon">👤</div>
+<div class="text">
+<span class="small">My Account</span>
+<b><a href="login.html">Login</a></b>
+</div>
+</div>
+
+<div class="icon-box">
+<div class="icon">🛒</div>
+<div class="cart-count">0</div>
+<div class="text">
+<span class="small">My Cart</span>
+<b><a href="cart.html">View Cart</a></b>
+</div>
+</div>
+
+<div class="icon-box">
+<a href="about.html" class="about-link">About Us</a>
+</div>
+
+</div>
+
+</div>
+
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a href="Laptop.html">Laptops</a>
+<a href="SSD.html">SSD</a>
+<a href="Mouse.html">Mouse</a>
+<a href="Keyboards.html">Keyboards</a>
+<a href="Power Banks.html">Power Banks</a>
+</nav>
+
+</header>
+
+<section class="section1">
+<h1 class="title">SSD Collection</h1>
+</section>
+
+<section class="products">
+
+<div class="product">
+<img src="images/samsung nvme-gen3-1.jpg">
+<h3>Samsung 970 EVO Plus 500GB NVMe Gen3</h3>
+<p class="price">RS.18,500.00</p>
+<button class="add-cart" onclick="addToCart('Samsung 970 EVO Plus 500GB',18500,'images/samsung nvme-gen3-1.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/WD nvme-gen3-2.jpg">
+<h3>WD Blue SN550 1TB NVMe Gen3</h3>
+<p class="price">RS.24,000.00</p>
+<button class="add-cart" onclick="addToCart('WD Blue SN550 1TB',24000,'images/WD nvme-gen3-2.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/Crucial nvme-gen3-3.jpg">
+<h3>Crucial P2 500GB NVMe Gen3</h3>
+<p class="price">RS.13,500.00</p>
+<button class="add-cart" onclick="addToCart('Crucial P2 500GB',13500,'images/Crucial nvme-gen3-3.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/Samsung nvme-gen4-1.jpg">
+<h3>Samsung 980 Pro 1TB NVMe Gen4</h3>
+<p class="price">RS.32,000.00</p>
+<button class="add-cart" onclick="addToCart('Samsung 980 Pro 1TB',32000,'images/Samsung nvme-gen4-1.jpg')">Add to Cart</button>
+<span class="badge">FAST</span>
+</div>
+
+<div class="product">
+<img src="images/WD nvme-gen4-2.jpg">
+<h3>WD Black SN850X 1TB NVMe Gen4</h3>
+<p class="price">RS.34,500.00</p>
+<button class="add-cart" onclick="addToCart('WD Black SN850X 1TB',34500,'images/WD nvme-gen4-2.jpg')">Add to Cart</button>
+<span class="badge">FAST</span>
+</div>
+
+<div class="product">
+<img src="images/Kingston nvme-gen4-3.jpg">
+<h3>Kingston Fury Renegade 1TB Gen4</h3>
+<p class="price">RS.31,500.00</p>
+<button class="add-cart" onclick="addToCart('Kingston Fury 1TB',31500,'images/Kingston nvme-gen4-3.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/Crucial nvme-gen5-1.jpg">
+<h3>Crucial T700 1TB NVMe Gen5</h3>
+<p class="price">RS.65,000.00</p>
+<button class="add-cart" onclick="addToCart('Crucial T700 1TB',65000,'images/Crucial nvme-gen5-1.jpg')">Add to Cart</button>
+<span class="badge">NEW</span>
+</div>
+
+<div class="product">
+<img src="images/Samsung nvme-gen5-2.jpg">
+<h3>Samsung 990 Pro Gen5 2TB</h3>
+<p class="price">RS.78,000.00</p>
+<button class="add-cart" onclick="addToCart('Samsung 990 Pro 2TB',78000,'images/Samsung nvme-gen5-2.jpg')">Add to Cart</button>
+<span class="badge">NEW</span>
+</div>
+
+<div class="product">
+<img src="images/Gigabyte nvme-gen5-3.jpg">
+<h3>Gigabyte Aorus Gen5 1TB SSD</h3>
+<p class="price">RS.70,000.00</p>
+<button class="add-cart" onclick="addToCart('Gigabyte Aorus 1TB',70000,'images/Gigabyte nvme-gen5-3.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/Samsung sata-1.jpg">
+<h3>Samsung 870 EVO 1TB SATA SSD</h3>
+<p class="price">RS.20,500.00</p>
+<button class="add-cart" onclick="addToCart('Samsung 870 EVO 1TB',20500,'images/Samsung sata-1.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/Kingston sata-2.jpg">
+<h3>Kingston A400 480GB SATA SSD</h3>
+<p class="price">RS.9,500.00</p>
+<button class="add-cart" onclick="addToCart('Kingston A400 480GB',9500,'images/Kingston sata-2.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/WD sata-3.jpg">
+<h3>WD Green 1TB SATA SSD</h3>
+<p class="price">RS.18,000.00</p>
+<button class="add-cart" onclick="addToCart('WD Green 1TB',18000,'images/WD sata-3.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/Crucial sata-4.jpg">
+<h3>Crucial MX500 500GB SATA SSD</h3>
+<p class="price">RS.11,500.00</p>
+<button class="add-cart" onclick="addToCart('Crucial MX500 500GB',11500,'images/Crucial sata-4.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/Team Group sata-5.jpg">
+<h3>Team Group GX2 1TB SATA SSD</h3>
+<p class="price">RS.17,500.00</p>
+<button class="add-cart" onclick="addToCart('Team GX2 1TB',17500,'images/Team Group sata-5.jpg')">Add to Cart</button>
+</div>
+
+<div class="product">
+<img src="images/SanDisk sata-6.jpg">
+<h3>SanDisk Ultra 3D 1TB SATA SSD</h3>
+<p class="price">RS.19,500.00</p>
+<button class="add-cart" onclick="addToCart('SanDisk Ultra 1TB',19500,'images/SanDisk sata-6.jpg')">Add to Cart</button>
+</div>
+
+</section>
+
+<footer>
+<div class="social">
+<a href="#">Facebook</a>
+<a href="#">YouTube</a>
+<a href="#">WhatsApp</a>
+<a href="#">Instagram</a>
+</div>
+
+<p>© Copyright 2026 - All Rights Reserved</p>
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

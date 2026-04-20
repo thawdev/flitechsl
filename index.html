@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FliTech Store</title>
+<link rel="stylesheet" href="css/Index.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="header-left">
+<div class="header-store-notice">The Best Laptop Store to access everything</div>
+</div>
+
+<div class="top-header">
+
+<div class="logo">FliTech</div>
+
+<div class="search-box">
+<input type="text" placeholder="Search products">
+<button>Search</button>
+</div>
+
+<div class="icons">
+
+<div class="icon-box">
+<div class="icon">👤</div>
+<div class="text">
+<span class="small">My Account</span>
+<b><a href="login.html">Login</a></b>
+</div>
+</div>
+
+<div class="icon-box">
+<div class="icon">🛒</div>
+<div class="cart-count">0</div>
+<div class="text">
+<span class="small">My Cart</span>
+<b><a href="cart.html">View Cart</a></b>
+</div>
+</div>
+
+<div class="icon-box">
+<a href="about.html" class="about-link">About Us</a>
+</div>
+
+</div>
+
+</div>
+
+<nav class="navbar">
+<a href="index.html">Home</a>
+<a href="Laptop.html">Laptops</a>
+<a href="SSD.html">SSD</a>
+<a href="Mouse.html">Mouse</a>
+<a href="Keyboards.html">Keyboards</a>
+<a href="Power Banks.html">Power Banks</a>
+</nav>
+
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Latest Tech Deals</h1>
+<button class="blue-btn">Shop Now</button>
+</div>
+</section>
+
+<section class="trending">
+<h1>Trending Products</h1>
+
+<div class="product-grid">
+
+<div class="product-card">
+<img src="images/asus-zenbook.jpg">
+<h3>ASUS Zenbook A14</h3>
+<p class="price">Rs.279,000.00</p>
+<button class="add-cart" onclick="addToCart('ASUS Zenbook A14',279000,'images/asus-zenbook.jpg')">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/asus-expertbook.png">
+<h3>Asus Expertbook B1503</h3>
+<p class="price">Rs.245,000.00</p>
+<button class="add-cart" onclick="addToCart('Asus Expertbook B1503',245000,'images/asus-expertbook.png')">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/hp-omnibook.png">
+<h3>HP Omnibook 16</h3>
+<p class="price">Rs.275,000.00</p>
+<button class="add-cart" onclick="addToCart('HP Omnibook 16',275000,'images/hp-omnibook.png')">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/dell-16.png">
+<h3>Dell 16 Core i5</h3>
+<p class="price">Rs.185,000.00</p>
+<button class="add-cart" onclick="addToCart('Dell 16 Core i5',185000,'images/dell-16.png')">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/pb1.png">
+<h3>Baseus 10000mAh Magnetic Power Bank</h3>
+<p class="price">Rs.8,500.00</p>
+<button class="add-cart" onclick="addToCart('Baseus 10000mAh Power Bank',8500,'images/pb1.png')">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/pb3.png">
+<h3>Baseus Amblight 30000mAh Power Bank</h3>
+<p class="price">Rs.18,500.00</p>
+<button class="add-cart" onclick="addToCart('Baseus Amblight 30000mAh',18500,'images/pb3.png')">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/pb10.png">
+<h3>Anker Nano Power Bank 5000mAh</h3>
+<p class="price">Rs.6,500.00</p>
+<button class="add-cart" onclick="addToCart('Anker Nano 5000mAh',6500,'images/pb10.png')">Add to Cart</button>
+</div>
+
+<div class="product-card">
+<img src="images/keyboard15.png">
+<h3>Fantech K613L Keyboard</h3>
+<p class="price">Rs.7,800.00</p>
+<button class="add-cart" onclick="addToCart('Fantech K613L Keyboard',7800,'images/keyboard15.png')">Add to Cart</button>
+</div>
+
+</div>
+</section>
+
+<section class="best-sellers">
+<h1>Best Sellers</h1>
+
+<div class="best-grid">
+
+<div class="best-card">
+<img src="images/MacBook-Air-M3-Chip-15-inch-2.jpg">
+<h3>MacBook M3 Air 15 inch</h3>
+<p class="price">Rs.379,000.00</p>
+<button class="add-cart" onclick="addToCart('MacBook M3 Air 15',379000,'images/MacBook-Air-M3-Chip-15-inch-2.jpg')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/Lenovo LOQ RTX5050.jpg">
+<h3>Lenovo LOQ 15IRX10 i5</h3>
+<p class="price">Rs.315,000.00</p>
+<button class="add-cart" onclick="addToCart('Lenovo LOQ 15IRX10',315000,'images/Lenovo LOQ RTX5050.jpg')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/Macbook-pro-M2-pro-16-inch.jpg">
+<h3>MacBook M2 Pro 16 inch</h3>
+<p class="price">Rs.590,000.00</p>
+<button class="add-cart" onclick="addToCart('MacBook M2 Pro 16',590000,'images/Macbook-pro-M2-pro-16-inch.jpg')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/asus-vivobook.png">
+<h3>ASUS Vivobook 15 i7</h3>
+<p class="price">Rs.228,000.00</p>
+<button class="add-cart" onclick="addToCart('ASUS Vivobook 15 i7',228000,'images/asus-vivobook.png')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/lenovo-v15.png">
+<h3>Lenovo V15 Ryzen 3</h3>
+<p class="price">Rs.129,999.00</p>
+<button class="add-cart" onclick="addToCart('Lenovo V15 Ryzen 3',129999,'images/lenovo-v15.png')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/hp-250.png">
+<h3>HP 250 G10 i5</h3>
+<p class="price">Rs.178,999.00</p>
+<button class="add-cart" onclick="addToCart('HP 250 G10 i5',178999,'images/hp-250.png')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/mouse20.png">
+<h3>Logitech G304 Mouse</h3>
+<p class="price">Rs.16,500.00</p>
+<button class="add-cart" onclick="addToCart('Logitech G304 Mouse',16500,'images/mouse20.png')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/mouse6.png">
+<h3>Redragon M601 Mouse</h3>
+<p class="price">Rs.3,500.00</p>
+<button class="add-cart" onclick="addToCart('Redragon M601 Mouse',3500,'images/mouse6.png')">Add to Cart</button>
+</div>
+
+<div class="best-card">
+<img src="images/pb8.png">
+<h3>Anker PowerCore Elite</h3>
+<p class="price">Rs.22,500.00</p>
+<button class="add-cart" onclick="addToCart('Anker PowerCore Elite',22500,'images/pb8.png')">Add to Cart</button>
+</div>
+
+</div>
+</section>
+
+<section class="gaming-laptops">
+<h1>Gaming Laptops</h1>
+
+<div class="gaming-grid">
+
+<div class="gaming-card">
+<img src="images/lenovo-legion.png">
+<h3>Lenovo Legion 5i</h3>
+<p class="price">Rs.625,000.00</p>
+<button class="add-cart" onclick="addToCart('Lenovo Legion 5i',625000,'images/lenovo-legion.png')">Add to Cart</button>
+</div>
+
+<div class="gaming-card">
+<img src="images/lenovo-legion.png">
+<h3>Asus TUF A16</h3>
+<p class="price">Rs.365,000.00</p>
+<button class="add-cart" onclick="addToCart('Asus TUF A16',365000,'images/asus-tuf.png')">Add to Cart</button>
+</div>
+
+<div class="gaming-card">
+<img src="images/hp-victus.png">
+<h3>HP Victus 15</h3>
+<p class="price">Rs.257,999.00</p>
+<button class="add-cart" onclick="addToCart('HP Victus 15',257999,'images/hp-victus.png')">Add to Cart</button>
+</div>
+
+<div class="gaming-card">
+<img src="images/acer-nitro.png">
+<h3>Acer Nitro Lite 16</h3>
+<p class="price">Rs.249,999.00</p>
+<button class="add-cart" onclick="addToCart('Acer Nitro Lite 16',249999,'images/acer-nitro.png')">Add to Cart</button>
+</div>
+
+</div>
+</section>
+
+<footer>
+<div class="social">
+<a href="#">Facebook</a>
+<a href="#">YouTube</a>
+<a href="#">WhatsApp</a>
+<a href="#">Instagram</a>
+</div>
+
+<p>© Copyright 2026 - All Rights Reserved</p>
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+</html>

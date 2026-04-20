@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Cart - FliTech Store</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cart-img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.cart-details {
+    flex: 1;
+}
+
+.cart-details h3 {
+    margin: 0;
+}
+
+.quantity {
+    margin: 10px 0;
+}
+
+.quantity button {
+    padding: 5px 10px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.quantity span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.item-total {
+    color: green;
+    font-weight: bold;
+}
+
+.remove-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#grand-total {
+    text-align: right;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.empty {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1 class="title">🛒 Your Shopping Cart</h1>
+
+<div id="cart-container"></div>
+<h2 id="grand-total"></h2>
+
+<script src="cart.js"></script>
+
+</body>
+</html>
